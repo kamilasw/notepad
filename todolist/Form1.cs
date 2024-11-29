@@ -37,7 +37,7 @@ namespace todolist
             string userInput = textBox1.Text;
             if (string.IsNullOrEmpty(userInput))
             {
-                textBox1.Text = "input cannot be empty";
+                MessageBox.Show("input cannot be empty");
                 return;
             }
             if(userInput.Length >= 39)
@@ -57,7 +57,7 @@ namespace todolist
             }
             else
             {
-                textBox2.Clear();
+                button2_Click(sender, e);
                 textinstring = userInput + System.Environment.NewLine;
                 count = 1;
                 textBox2.Text = textinstring;
@@ -80,6 +80,7 @@ namespace todolist
         {
             filestring += textinstring;
             File.WriteAllText("noted.txt", filestring);
+            
 
             textinstring = "";
             count = 0;
