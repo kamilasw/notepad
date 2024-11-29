@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kamil\\OneDrive\\Pulpit\\todolist\\todolist\\todolist.csproj": {}
+    "C:\\Users\\kamil\\OneDrive\\Pulpit\\projects\\todolist\\todolist\\todolist.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kamil\\OneDrive\\Pulpit\\todolist\\todolist\\todolist.csproj": {
+    "C:\\Users\\kamil\\OneDrive\\Pulpit\\projects\\todolist\\todolist\\todolist.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kamil\\OneDrive\\Pulpit\\todolist\\todolist\\todolist.csproj",
+        "projectUniqueName": "C:\\Users\\kamil\\OneDrive\\Pulpit\\projects\\todolist\\todolist\\todolist.csproj",
         "projectName": "todolist",
-        "projectPath": "C:\\Users\\kamil\\OneDrive\\Pulpit\\todolist\\todolist\\todolist.csproj",
+        "projectPath": "C:\\Users\\kamil\\OneDrive\\Pulpit\\projects\\todolist\\todolist\\todolist.csproj",
         "packagesPath": "C:\\Users\\kamil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kamil\\OneDrive\\Pulpit\\todolist\\todolist\\obj\\",
+        "outputPath": "C:\\Users\\kamil\\OneDrive\\Pulpit\\projects\\todolist\\todolist\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

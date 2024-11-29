@@ -9,6 +9,7 @@ namespace todolist
 
         int count = 0;
         string textinstring = "";
+        string filestring = "";
 
         public Form1()
         {
@@ -41,7 +42,7 @@ namespace todolist
             }
             if(userInput.Length >= 39)
             {
-                textBox1.Text = "max input length is 38 characters";
+                MessageBox.Show("max input length is 38 characters");
                 return;
             }
             else { textBox1.Clear(); }
@@ -77,6 +78,9 @@ namespace todolist
 
         private void button2_Click(object sender, EventArgs e)
         {
+            filestring += textinstring;
+            File.WriteAllText("noted.txt", filestring);
+
             textinstring = "";
             count = 0;
             textBox2.Clear();
