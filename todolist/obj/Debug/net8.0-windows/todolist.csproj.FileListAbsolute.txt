@@ -31,3 +31,4 @@ C:\Users\kamil\OneDrive\Pulpit\projects\todolist\todolist\obj\Debug\net8.0-windo
 C:\Users\kamil\OneDrive\Pulpit\projects\todolist\todolist\obj\Debug\net8.0-windows\todolist.pdb
 C:\Users\kamil\OneDrive\Pulpit\projects\todolist\todolist\obj\Debug\net8.0-windows\todolist.genruntimeconfig.cache
 C:\Users\kamil\OneDrive\Pulpit\projects\todolist\todolist\obj\Debug\net8.0-windows\ref\todolist.dll
+C:\Users\kamil\OneDrive\Pulpit\projects\todolist\todolist\obj\Debug\net8.0-windows\todolist.Properties.Resources.resources

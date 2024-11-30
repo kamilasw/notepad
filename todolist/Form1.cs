@@ -19,7 +19,16 @@ namespace todolist
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-           
+            label3.Text = "";
+            label3.Text = (textBox1.Text.Length.ToString());
+            if(textBox1.Text.Length > 38)
+            {
+                label3.ForeColor = Color.Crimson;
+            }
+            else
+            {
+                label3.ForeColor = Color.SteelBlue;
+            }
         }
 
         private void textBox_KeyDown(object sender, KeyEventArgs e)
@@ -40,13 +49,13 @@ namespace todolist
                 MessageBox.Show("input cannot be empty");
                 return;
             }
-            if(userInput.Length >= 39)
+            if (userInput.Length >= 39)
             {
                 MessageBox.Show("max input length is 38 characters");
                 return;
             }
             else { textBox1.Clear(); }
-            
+
             if (count < 17)
             {
 
@@ -62,7 +71,7 @@ namespace todolist
                 count = 1;
                 textBox2.Text = textinstring;
             }
-            
+
             textBox1.Select();
         }
 
@@ -80,12 +89,17 @@ namespace todolist
         {
             filestring += textinstring;
             File.WriteAllText("noted.txt", filestring);
-            
+
 
             textinstring = "";
             count = 0;
             textBox2.Clear();
             textBox1.Select();
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

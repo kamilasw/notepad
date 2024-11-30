@@ -34,6 +34,7 @@
             label1 = new Label();
             label2 = new Label();
             button2 = new Button();
+            label3 = new Label();
             SuspendLayout();
             // 
             // textBox1
@@ -114,12 +115,26 @@
             button2.UseVisualStyleBackColor = false;
             button2.Click += button2_Click;
             // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Segoe UI", 13F);
+            label3.ForeColor = Color.SteelBlue;
+            label3.ImageAlign = ContentAlignment.MiddleLeft;
+            label3.Location = new Point(434, 13);
+            label3.Name = "label3";
+            label3.Size = new Size(29, 36);
+            label3.TabIndex = 6;
+            label3.Text = "0";
+            label3.Click += label3_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.MistyRose;
             ClientSize = new Size(593, 679);
+            Controls.Add(label3);
             Controls.Add(button2);
             Controls.Add(label2);
             Controls.Add(label1);
@@ -142,5 +157,6 @@
         private Label label1;
         private Label label2;
         private Button button2;
+        private Label label3;
     }
 }
